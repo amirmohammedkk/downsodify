@@ -1,6 +1,6 @@
 </p>
 
-<h1 align="center">downsodify</h1>
+<h1 align="center">Downsodify</h1>
 <p align="center">
   A tool to download Spotify tracks by searching for them on YouTube.
   <br/>
@@ -18,7 +18,7 @@
 
 ## Overview
 
-downsodify is a tool designed to download Spotify tracks by searching for them on YouTube. It is lightweight and supports cross-platform use.
+Downsodify is a tool designed to download Spotify tracks by searching for them on YouTube. It is lightweight and supports cross-platform use.
 
 ## Features
 
