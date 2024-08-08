@@ -59,6 +59,22 @@ python downsodify.py
 - **ffmpeg :** For audio processing.
 - **yt-dlp :** For downloading YouTube videos.
 
+## Important Note on API Credentials
+
+This project uses Spotify API credentials that are linked to a specific account. Please be aware of the following:
+
+- **API Rate Limits**: Due to the usage of personal Spotify API credentials, there are limitations on the number of access tokens that can be generated. Excessive token generation may lead to disruptions in service.
+- **Credential Management**: If you encounter issues with access tokens, it is likely due to the rate limits imposed on the API. We are working on increasing the token limit to accommodate more users.
+- **Current Status**: If you face difficulties with the Spotify integration, please check the [Issues](https://github.com/amirmohammedkk/downsodify/issues) page for updates or potential workarounds.
+
+### How to Use with your credentials
+
+1. **Obtain Your API Credentials**: Ensure you have your own Spotify API credentials. You can obtain them by following the [Spotify API documentation](https://developer.spotify.com/documentation/web-api/).
+2. **Configuration**: Replace the placeholder credentials in the code with your own API credentials.
+
+For further assistance or to report issues, please visit the [Issues](https://github.com/amirmohammedkk/downsodify/issues) page.
+
+
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements, please submit a [pull request](https://github.com/amirmohammedkk/downsodify/pulls) or open an [issue](https://github.com/amirmohammedkk/downsodify/issues/new/choose).
