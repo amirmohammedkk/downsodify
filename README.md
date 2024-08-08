@@ -55,6 +55,8 @@ for the direct running of downsodify,
 python downsodify.py
 ```
 
+## Disclaimer
+The usage of this software may infringe Spotify's ToS and/or your local legislation. Use it under your own risk.
 
 
 
