@@ -35,4 +35,4 @@ A tool to download Spotify tracks by searching for them on YouTube.
 
 Run the script to start the process:
 ```bash
-python your_script.py
+python downsodify.py
