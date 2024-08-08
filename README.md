@@ -45,22 +45,22 @@ You can install the required Python packages using:
   pip install -r requirements.txt
   ```
 
-## Configuration
 
-If needed, create a configuration file to customize settings. Refer to the config.example.yaml for available options and their descriptions.
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue.
+Contributions are welcome! If you have suggestions or improvements, please submit a [pull request](https://github.com/amirmohammedkk/downsodify/pulls) or open an issue.
+
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/amirmohammedkk/downsodify/blob/main/LICENSE) file for details.
+
 
 ## Acknowledgments
 
-ffmpeg: For audio processing.
-yt-dlp: For downloading YouTube videos.
+-ffmpeg: For audio processing.
+-yt-dlp: For downloading YouTube videos.
    
 
 
