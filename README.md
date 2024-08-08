@@ -44,6 +44,13 @@ You can install the required Python packages using:
   ```bash
   pip install -r requirements.txt
   ```
+## Running the program
+### Run downsodify.py
+Start by running downsodify.py to ensure any preliminary setup or configuration is handled:
+```bash
+python downsodify.py
+```
+
 
 
 
