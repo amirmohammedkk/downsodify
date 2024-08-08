@@ -54,6 +54,8 @@ for the direct running of downsodify,
 ```
 python downsodify.py
 ```
+
+**Note:**Private playlists links cant be processed. so make sure to change it to public before entering the link.
 ## Acknowledgments
 
 - **ffmpeg :** For audio processing.
