@@ -54,15 +54,21 @@ for the direct running of downsodify,
 ```
 python downsodify.py
 ```
+## Acknowledgments
+
+- **ffmpeg :** For audio processing.
+- **yt-dlp :** For downloading YouTube videos.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please submit a [pull request](https://github.com/amirmohammedkk/downsodify/pulls) or open an [issue](https://github.com/amirmohammedkk/downsodify/issues/new/choose).
+
 
 ## Disclaimer
 The usage of this software may infringe Spotify's ToS and/or your local legislation. Use it under your own risk.
 
 
 
-## Contributing
-
-Contributions are welcome! If you have suggestions or improvements, please submit a [pull request](https://github.com/amirmohammedkk/downsodify/pulls) or open an [issue](https://github.com/amirmohammedkk/downsodify/issues/new/choose).
 
 
 ## License
@@ -70,10 +76,7 @@ Contributions are welcome! If you have suggestions or improvements, please submi
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
 
 
-## Acknowledgments
 
-- **ffmpeg :** For audio processing.
-- **yt-dlp :** For downloading YouTube videos.
    
 
 
