@@ -1,38 +1,35 @@
-# downsodify
-A tool to download Spotify tracks by searching for them on YouTube.
+<p align="center">
+  <img src="docs/images/logo.png" alt="downsodify Logo" width="200"/>
+</p>
 
-## Setup
+<h1 align="center">downsodify</h1>
+<p align="center">
+  A tool to download Spotify tracks by searching for them on YouTube.
+  <br/>
+  <a href="https://github.com/amirmohammedkk/downsodify/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/amirmohammedkk/downsodify/issues">Request Feature</a>
+</p>
 
-### Python Dependencies
+<p align="center">
+  <img src="https://img.shields.io/github/license/amirmohammedkk/downsodify" alt="license"/>
+  <img src="https://img.shields.io/github/stars/amirmohammedkk/downsodify" alt="stars"/>
+  <img src="https://img.shields.io/github/forks/amirmohammedkk/downsodify" alt="forks"/>
+  <img src="https://img.shields.io/github/issues/amirmohammedkk/downsodify" alt="issues"/>
+</p>
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/downsodify.git
-    cd downsodify
-    ```
+## Overview
 
-2. Create and activate a virtual environment (optional but recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
+downsodify is a tool designed to download Spotify tracks by searching for them on YouTube. It is lightweight and supports cross-platform use.
 
-3. Install Python dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+## Features
 
-### System Dependencies
+- **Easy to use:** Download tracks with simple commands.
+- **Cross-platform:** Compatible with Windows, macOS, and Linux.
 
-4. Run the setup script to check and install system dependencies:
-    ```bash
-    python setup.py
-    ```
+## Installation
 
-    This will install `ffmpeg` if it is not already installed. Follow any additional prompts to complete the installation.
-
-## Usage
-
-Run the script to start the process:
-```bash
-python downsodify.py
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/amirmohammedkk/downsodify.git
+   cd downsodify
