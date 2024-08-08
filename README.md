@@ -22,7 +22,7 @@ Downsodify is a tool designed to download Spotify tracks by searching for them o
 
 ## Features
 
-- **Easy to use:** Download tracks with simple commands.
+- **Easy to use:** Just drop the Spotify link—whether it’s a playlist or an album—and download tracks with easy commands. No worries!
 - **Cross-platform:** Compatible with Windows, macOS, and Linux.
 
 ## Installation
