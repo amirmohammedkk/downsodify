@@ -1,5 +1,3 @@
-<p align="center">
-  <img src="docs/images/logo.png" alt="downsodify Logo" width="200"/>
 </p>
 
 <h1 align="center">downsodify</h1>
