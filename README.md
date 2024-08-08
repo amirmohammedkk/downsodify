@@ -41,9 +41,9 @@ Before running the tool, ensure you have the necessary dependencies installed:
 3.  yt-dlp (for YouTube downloading)
    
 You can install the required Python packages using:
-
   ```bash
-    pip install -r requirements.txt
+  pip install -r requirements.txt
+  ```
 
 ## Configuration
 
@@ -62,3 +62,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ffmpeg: For audio processing.
 yt-dlp: For downloading YouTube videos.
    
+
+
+
+
+
