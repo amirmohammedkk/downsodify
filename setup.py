@@ -31,9 +31,9 @@ def install_ffmpeg():
     try:
         if sys.platform.startswith('linux'):
             subprocess.check_call(["sudo", "apt-get", "install", "-y", "ffmpeg"])
-        elif sys.platform == "darwin":  # macOS
+        elif sys.platform == "darwin":  
             subprocess.check_call(["brew", "install", "ffmpeg"])
-        elif sys.platform == "win32":  # Windows
+        elif sys.platform == "win32":  
             print("Please download and install ffmpeg from https://ffmpeg.org/download.html")
         else:
             print("Unsupported operating system.")
@@ -68,18 +68,14 @@ def run_downsodify():
         print("Failed to run downsodify.py.")
 
 if __name__ == "__main__":
-    # Print the welcome message
     print_welcome_message()
     
-    # Check and install Python packages
     if not (check_and_install_pip_package("requests") and check_and_install_pip_package("yt_dlp")):
         print("Failed to install one or more Python packages. Exiting.")
         sys.exit(1)
 
-    # Check and install system dependencies
     if not check_ffmpeg():
         print("Failed to install system dependencies. Exiting.")
         sys.exit(1)
     
-    # Run downsodify.py if all setup tasks are successful
     run_downsodify()
