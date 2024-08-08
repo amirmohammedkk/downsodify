@@ -31,3 +31,34 @@ downsodify is a tool designed to download Spotify tracks by searching for them o
    ```bash
    git clone https://github.com/amirmohammedkk/downsodify.git
    cd downsodify
+
+## Dependencies
+
+Before running the tool, ensure you have the necessary dependencies installed:
+
+1.  Python 3.7+
+2.  ffmpeg (for audio processing)
+3.  yt-dlp (for YouTube downloading)
+   
+You can install the required Python packages using:
+
+    ```bash
+    pip install -r requirements.txt
+
+## Configuration
+
+If needed, create a configuration file to customize settings. Refer to the config.example.yaml for available options and their descriptions.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+ffmpeg: For audio processing.
+yt-dlp: For downloading YouTube videos.
+   
