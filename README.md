@@ -5,7 +5,7 @@
 ██████╔╝╚█████╔╝░░╚██╔╝░╚██╔╝░██║░╚███║██████╔╝╚█████╔╝██████╔╝██║██║░░░░░░░░██║░░░
 ╚═════╝░░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝░░╚══╝╚═════╝░░╚════╝░╚═════╝░╚═╝╚═╝░░░░░░░░╚═╝░░░
 
-<h1 align="center">Downsodify</h1>
+
 <p align="center">
   A tool to download Spotify tracks by searching for them on YouTube.
   <br/>
