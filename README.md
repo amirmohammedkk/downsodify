@@ -42,7 +42,7 @@ Before running the tool, ensure you have the necessary dependencies installed:
    
 You can install the required Python packages using:
 
-    ```bash
+  ```bash
     pip install -r requirements.txt
 
 ## Configuration
