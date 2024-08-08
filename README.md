@@ -50,6 +50,10 @@ Start by running downsodify.py to ensure any preliminary setup or configuration 
 ```bash
 python setup.py
 ```
+for the direct running of downsodify,
+```
+python downsodify.py
+```
 
 
 
