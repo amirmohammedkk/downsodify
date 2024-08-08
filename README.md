@@ -48,7 +48,7 @@ You can install the required Python packages using:
 
 Start by running downsodify.py to ensure any preliminary setup or configuration is handled:
 ```bash
-python downsodify.py
+python setup.py
 ```
 
 
