@@ -59,8 +59,8 @@ This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file
 
 ## Acknowledgments
 
--ffmpeg: For audio processing.
--yt-dlp: For downloading YouTube videos.
+**ffmpeg:** For audio processing.
+**yt-dlp:** For downloading YouTube videos.
    
 
 
