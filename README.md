@@ -60,7 +60,7 @@ python downsodify.py
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions or improvements, please submit a [pull request](https://github.com/amirmohammedkk/downsodify/pulls) or open an issue.
+Contributions are welcome! If you have suggestions or improvements, please submit a [pull request](https://github.com/amirmohammedkk/downsodify/pulls) or open an [issue](https://github.com/amirmohammedkk/downsodify/issues/new/choose).
 
 
 ## License
