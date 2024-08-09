@@ -50,7 +50,7 @@ You can install the required Python packages using:
 
 Start by running setup.py to ensure any preliminary setup or configuration is handled (this may require admin privileges in some distributions):
 
--linux
+- linux
 ```
 sudo python setup.py
 ```
