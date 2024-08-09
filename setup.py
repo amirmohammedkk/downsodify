@@ -22,25 +22,34 @@ def check_ffmpeg():
         subprocess.check_output(["ffmpeg", "-version"])
         print("ffmpeg is already installed.")
         return True
-    except subprocess.CalledProcessError:
-        print("ffmpeg is not installed. Installing...")
-        return install_ffmpeg()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        print("ffmpeg is not installed. Attempting to install...")
+        if install_ffmpeg():
+            print("ffmpeg installed successfully. Verifying installation...")
+            return check_ffmpeg()  
+        else:
+            return False
 
 def install_ffmpeg():
     """Install ffmpeg based on the operating system."""
     try:
         if sys.platform.startswith('linux'):
-            subprocess.check_call(["sudo", "apt-get", "install", "-y", "ffmpeg"])
+            if os.geteuid() != 0:
+                print("This script requires root privileges to install ffmpeg. Please run with sudo.")
+                return False
+            subprocess.check_call(["apt-get", "update"])
+            subprocess.check_call(["apt-get", "install", "-y", "ffmpeg"])
         elif sys.platform == "darwin":  
             subprocess.check_call(["brew", "install", "ffmpeg"])
         elif sys.platform == "win32":  
             print("Please download and install ffmpeg from https://ffmpeg.org/download.html")
+            return False
         else:
             print("Unsupported operating system.")
             return False
         return True
-    except subprocess.CalledProcessError:
-        print("Failed to install ffmpeg.")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to install ffmpeg: {e}")
         return False
 
 def print_welcome_message():
@@ -75,7 +84,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     if not check_ffmpeg():
-        print("Failed to install system dependencies. Exiting.")
+        print("Failed to install or verify ffmpeg. Exiting.")
         sys.exit(1)
     
     run_downsodify()
